@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">VolleyDemo</string>
+    <string name="app_name">校园生活宝</string>
+    <string name="mode_name">模块</string>
 </resources>

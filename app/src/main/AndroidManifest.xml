@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.volleydemo">
+    package="com.example.swalls">
 
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <application
-        android:name="util.ApplicationController"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".EduListActivity" />
+        <activity android:name=".EduDetailActivity" />
+        <activity android:name=".WallDetailActivity"/>
+        <activity android:name=".NavigationActivity"/>
+        <activity android:name=".WallListActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
-
-        <activity android:name=".VolleyRequest"></activity>
-        <activity android:name=".VolleyImg"></activity>
     </application>
 
 </manifest>

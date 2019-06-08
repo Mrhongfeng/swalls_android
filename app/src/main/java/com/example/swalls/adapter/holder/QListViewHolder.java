@@ -1,0 +1,21 @@
+package com.example.swalls.adapter.holder;
+
+import android.media.Image;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.TextView;
+
+import java.security.PublicKey;
+
+public class QListViewHolder {
+    public TextView qlist_time;
+    public TextView qlist_title;
+    public TextView qlist_parentObjectId;
+    public TextView qlist_isCollection;
+    public TextView qlist_id;
+    public TextView qlist_label;
+    public TextView qlist_name;
+    public ImageView qlist_picture;
+    public TextView qlist_writeContests;
+    public LinearLayout qlist_layout;
+}
